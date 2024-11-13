@@ -1,0 +1,16 @@
+The simulator follows those below steps:
+    1. Exponent Alignment Module: 
+        Matches the exponents of both numbers before addition
+        Shifts the mantissa right while increasing the exponent of the smaller number until both exponents match
+
+    2. Mantissa Addition Module: 
+        Performs 4-bit binary addition after exponent alignment
+        Processes addition bit by bit, considering carry propagation
+
+    3. Overflow and Normalization Module:
+        When the result exceeds 4 bits, shifts mantissa right and increases exponent
+        Ensures proper normalization of the result according to floating-point standards
+
+    4. Result Storage Module:
+        Stores the final normalized mantissa and exponent
+        Makes the result available for further operations or use
