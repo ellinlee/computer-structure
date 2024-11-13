@@ -1,7 +1,3 @@
-Here's a simple README file for your code:
-
----
-
 # Floating-Point Addition Simulator
 
 This code is a MIPS assembly program that simulates floating-point addition using integer arithmetic. The program handles mantissa and exponent values, aligns exponents, adds mantissas, and normalizes the result if necessary.
@@ -46,7 +42,3 @@ The program will align exponents, add mantissas, and store the normalized result
 ## Exit
 
 The program uses an `ecall` to terminate.
-
---- 
-
-This README provides a concise overview of your code, its purpose, and the operations it performs.
